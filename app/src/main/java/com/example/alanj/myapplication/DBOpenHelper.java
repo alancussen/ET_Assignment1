@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBOpenHelper extends SQLiteOpenHelper {
-    // constructor for the class here we just map onto the constructor of the super class
+    // constructor   for the class here we just map onto the constructor of the super class
     public DBOpenHelper(Context context, String name, CursorFactory factory, int version) {
             super(context, name, factory, version);
     }
